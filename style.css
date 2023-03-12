@@ -1,0 +1,41 @@
+.container {
+    background-color: grey;
+    margin: 10%;
+    border: 5px solid black;
+    border-radius: 4px;
+    width: 450px;
+    height: 615px;
+    padding: 5px;
+
+}
+
+.screen {
+  
+    background-color: aliceblue;
+    border: solid 5px black;
+    border-radius: 5px;
+    height: 160px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.row {
+    align-self: start;
+    grid-template-rows: space-around;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    font-size: large;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border: gold solid;
+}
